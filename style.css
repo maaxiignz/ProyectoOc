@@ -393,3 +393,127 @@ main{
     font-size: 26px;
   }
 
+/*Responsive Inicio 1366x728 */
+
+@media only screen and (max-width: 1368px)
+{
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+  }
+  
+  .whatsapp-button img {
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .whatsapp-button span {
+    font-size: 13px; 
+    color: #333; 
+    line-height: 1.2; 
+    max-width: 150px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 30px;
+  }
+  .frase a {
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 560px;
+    margin-left: 560px;
+    color: white;
+    background-color: rgb(219, 185, 215);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.contenedor-servicios {
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  margin-right: 150px;
+  margin-left: 0px;
+}
+.recomendacion-general {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+  margin: 145px;
+  margin-top: 36px;
+  font-size: 1px;
+  padding: 0px;
+  color: beige;
+}
+.recomendacion-general h2{
+color: black;
+}
+.contenedor-recomendacion img {
+  margin-top: 0px;
+}
+.recomendacion-1 {
+  padding: 20px;
+  color: black;
+}
+.recomendacion-2 {
+  padding: 20px;
+}
+.recomendacion-3 {
+  padding: 20px;
+}
+}
+
+/*Responsive Paquetes 1366x728 */
+@media only screen and (max-width: 1368px)
+{
+  .paquetes-general{
+    margin-left: 2.5%;
+    margin-top: 20px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10px, 1fr)); /* Dos columnas cuando sea posible */
+    grid-gap: 30px; /* Espacio entre los elementos */
+    text-align: center;
+    padding-bottom: 50px;
+   }
+}
+/*Responsive Contacto 1366x728 */
+@media only screen and (max-width: 1368px)
+{
+  .contenedor-h2 h2{
+    background-color: white;
+    margin-left: 360px;
+    margin-right: 360px;
+    border-radius: 20px;
+    border: solid rgb(210, 174, 178) 3px;
+    padding: 5px;
+  }
+  .contenedor-nombre input {
+    margin-left: 0px;
+}
+  .contenedor-apellido input {
+    margin-left:0px;
+}
+.contenedor-numero input {
+  margin-left: 0px;
+}
+.contenedor-correo input {
+  margin-left: 0px;
+}
+.contenedor-mensaje textarea {
+  margin-left: 2px;
+  width: 616px;
+}
+/*Abarca el footer de todas las secciones*/
+.contenedor-footer h1{
+  font-size: 30px;
+  margin-right: 40px;
+}
+.contenedor-footer h4{
+  font-size: 20px;
+  margin-right: 40px;
+}
+}
