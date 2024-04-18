@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  background-color: rgb(59, 51, 51) !important;
+}
+main{
+    background-color: pink;
+}
+
+.header-nav {
+    background-color: rgb(59, 51, 51); /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interior */
+  }
+
+  ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 0;
+    padding: 5px;
+    display: flex; /* Usa flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+  }
+  .nav-icon {
+    margin-right: auto; /* Empuja "Unidos en la red" hacia la izquierda */
+  }
+ 
+  li {
+    margin-left: 20px; /* Espacio entre elementos de la lista */
+  }
+  li a{
+    font-size: 30px;
+    padding-right: 80px;
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline; /* Subraya enlaces al pasar el mouse */
+  }
+
+  .header-nav .nav-icon a {
+    font-size: 35px;
+    margin-top:-200px; /* Ajusta la cantidad de margen superior según sea necesario */
+    margin-left: 21px !important;
+  }
+  .header-img img {
+    width: 60px;
+    margin-right: 27px;
+    margin-left: 35px;
+    margin-top: -134px;
+    margin-bottom: 19px;
+}
+.frase {
+    background-image: url('img/img-frase.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 800px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+    color: white; 
+    padding: 20px; 
+  }
+  .frase h1 {
+    font-size: 36px; /* Tamaño de fuente para h1 */
+    margin-bottom: 20px; /* Espacio entre h1 y h2 */
+  }
+
+  .frase a {
+    font-size: 25px;
+    padding: 10px;
+    margin-right:840px;
+    margin-left: 840px;
+    color: white;
+    background-color:rgb(210, 174, 178);
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .frase a:hover {
+    cursor: pointer;
+}
+
+.contenedor-main {
+    margin: 100px;
+    color: black;
+}
+.contenedor-main h2 {
+    font-size: 50px;
+    background-color: rgb(210, 174, 178);
+    margin-top: -30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.contenedor-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr)); /* Tres columnas cuando sea posible */
+    grid-gap: 20px; /* Espacio entre los elementos */
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.contenedor-servicios {
+    padding: 100px;
+    border: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.contenedor-servicios .salon{
+    background-color: rgb(210, 174, 178);
+    border-radius: 20px;
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+.salon p {
+    padding-right: 10%;
+    padding-left: 19%;
+    margin-left: -17%;
+}
+.contenedor-servicios .comida{
+    background-color:rgb(210, 174, 178);
+    border-radius: 20px;
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+.comida p {
+    padding-right: 1%;
+    padding-left: 19%;
+    margin-left: -17%;
+}
+.contenedor-servicios .musica{
+    background-color:rgb(210, 174, 178);
+    border-radius: 20px;
+    padding-bottom: 90px;
+    padding-top: 30px;
+    
+  }
+.musica p {
+    padding-right: 1%;
+    padding-left: 19%;
+    margin-left: -17%;
+}
+.contenedor-servicios .decoracion{
+    background-color:rgb(210, 174, 178);
+    border-radius: 20px;
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+.decoracion p {
+    padding-right: 1%;
+    padding-left: 19%;
+    margin-left: -17%;
+}
+.contenedor-servicios .fotos{
+    background-color:rgb(210, 174, 178);
+    border-radius: 20px;
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+.fotos p {
+    padding-right: 1%;
+    padding-left: 19%;
+    margin-left: -17%;
+}
+.contenedor-servicios .extra{
+    background-color:rgb(210, 174, 178);
+    border-radius: 20px;
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+.extra p {
+    padding-right: 1%;
+    padding-left: 19%;
+    margin-left: -17%;
+}
+
+.recomendacion-general {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr)); /* Dos columnas cuando sea posible */
+  grid-gap: 20px; /* Espacio entre los elementos */
+  text-align: center;
+  margin: 145px;
+  margin-top: 36px;
+}
+.contenedor-recomendacion img {
+  width: 150px; /* Ajusta el tamaño de la imagen según sea necesario */
+  border-radius: 50%; /* Hace que la imagen sea redonda */
+  border: 2px solid black;
+  margin-right: 0px; /* Espacio entre la imagen y el texto */
+  margin-top: -80px;
+  margin-bottom: 10px;
+}
+.contenedor-recomendacion h1{
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+.contenedor-recomendacion #contenedor-h2{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(210, 174, 178);
+    border-radius: 20px;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+.contenedor-recomendacion h2{
+ color: white;
+ text-align: center;
+ font-family: "Alegreya", serif;
+ font-optical-sizing: auto;
+ font-weight: weight;
+ font-style: normal;
+}
+
+.recomendacion-1 {
+ background-color: rgb(210, 174, 178);
+ padding: 100px;
+}
+
+.recomendacion-2 {
+  background-color: rgb(210, 174, 178);
+  padding: 100px;
+ }
+
+ .recomendacion-3 {
+  background-color: rgb(210, 174, 178);
+  padding: 100px;
+ }
+ .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  display: flex; 
+  align-items: center; 
+  text-decoration: none;
+}
+
+.whatsapp-button img {
+  margin-left: 10px;
+  height: 80px;
+  width: 80px;
+}
+
+.whatsapp-button span {
+  font-size: 15px; 
+  color: #333; 
+  line-height: 1.2; 
+  max-width: 180px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+ footer{
+    background-color: rgb(59, 51, 51);
+    text-align: center;
+    color: white;
+    font-size: 20px !important;
+   }
+   .contenedor-redes svg{
+    font-size: 20px;
+    margin-right: 40px;
+    color: white;
+   }
+   .contenedor-redes svg path{
+    font-size: 20px;
+    margin-right: 40px;
+    color: white;
+   }
+
+   
+   /*Comienza Paquetes.html*/
+   .contenedor-paquetes{
+    text-align: center;
+   }
+   #h1-paquetes{
+    padding-top: 2px;
+    font-size: 50px;
+   }
+   .paquetes-general{
+    margin-left: 2.5%;
+    margin-top: -100px;
+    padding: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr)); /* Dos columnas cuando sea posible */
+    grid-gap: 0px; /* Espacio entre los elementos */
+    text-align: center;
+   }
+
+   .paquetes-general .card-buttom button{
+    border: solid grey 1px;
+    border-radius:5px;
+    background-color: white;
+   }
+
+   
+   /*Empieza contacto.html*/
+
+   .contenedor-formulario{
+    text-align: center;
+   }
+  .contenedor-h2{
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  input:focus {
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+  }
+   .contenedor-general{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Dos columnas cuando sea posible */
+    grid-gap: 10px; /* Espacio entre los elementos */
+    text-align: center;
+    margin: 335px;
+    margin-top: 36px;
+   }
+   .contenedor-nombre input{
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin-left: 270px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid rgb(210, 174, 178);
+   }
+  
+   .contenedor-apellido input{
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    height: 40px;
+    margin-left: -270px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: solid rgb(210, 174, 178);
+  }
+   .contenedor-correo input{
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    height: 40px;
+    margin-left: 270px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: solid rgb(210, 174, 178);
+   }
+   .contenedor-numero input{
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    height: 40px;
+    margin-left: -270px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: solid rgb(210, 174, 178);
+   }
+  
+   .contenedor-mensaje textarea{
+    width:624px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin-left: 274px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: solid rgb(210, 174, 178);
+   }
+   textarea:focus {
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+  }
+  
+   .ubicacion{
+    margin-top: -300px;
+    padding-bottom: 50px;
+    text-align: center;
+   }
+  .ubicacion h2{
+    font-size: 26px;
+  }
+
