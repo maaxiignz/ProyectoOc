@@ -344,21 +344,11 @@ main{
 
    .salones .img-salones {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: -100px;
-    margin-left: 250px;
-    margin-right: 250px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-left: 140px;
+    margin-right: 50px;
     margin-top: 30px;
 }
-   .salones img{
-    width: 400px;
-    height: 300px;
-    display: block;
-    margin: 15px;
-    border-radius: 20px;
-   }
-
-
    .transporte{
     margin-top: 50px;
    }
@@ -369,7 +359,6 @@ main{
     margin-left: 20%;
     margin-right: 20%;
    }
-   
    .transporte h1{
     text-align: center;
    }
@@ -382,14 +371,13 @@ main{
 
    .transporte .img-transporte {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: -100px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-left: 140px;
+    margin-right: 150px;
     margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
 }
    .transporte img{
-    width: 400px;
+    width: 300px;
     height: 300px;
     display: block;
     margin: 15px;
@@ -419,14 +407,13 @@ main{
 
    .catering .img-catering {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: -100px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-left: 140px;
+    margin-right: 150px;
     margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
 }
    .catering img{
-    width: 400px;
+    width: 300px;
     height: 300px;
     display: block;
     margin: 15px;
@@ -617,7 +604,7 @@ color: black;
    }
 }
 /*Responsive Contacto 1366x728 */
-@media only screen and (max-width: 1368px)
+@media only screen and (max-width: 1366px)
 {
   .contenedor-h2 h2{
     background-color: white;
@@ -644,6 +631,17 @@ color: black;
   width: 616px;
 }
 /*Abarca el footer de todas las secciones*/
+
+.contenedor-info{
+  margin-top: 100px;
+}
+.salones img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 15px;
+  border-radius: 20px;
+}
 .contenedor-footer h1{
   font-size: 30px;
   margin-right: 40px;
